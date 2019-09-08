@@ -1,2 +1,2 @@
 # VaspMine
-A reset mine plugin
+An updated version of the mine reset plugin
