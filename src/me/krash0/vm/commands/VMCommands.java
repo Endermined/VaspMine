@@ -37,8 +37,8 @@ public class VMCommands implements CommandExecutor {
 				p.sendMessage(" §3/VM create [mine] Creates a mine");
 				p.sendMessage(" §3/VM delete [mine] Deletes a mine");
 				p.sendMessage(" §3/VM setpos Enters position setting mode");
-				p.sendMessage(" §3/VM addblock [mine] [percentage] Adds blocks to the mine");
-				p.sendMessage(" §3/VM removeblock [mine] Removes block from the mine");
+/*				p.sendMessage(" §3/VM addblock [mine] [percentage] Adds blocks to the mine");
+				p.sendMessage(" §3/VM removeblock [mine] Removes block from the mine");*/
 				p.sendMessage(" §3/VM setresetinterval [mine] [interval] Sets an interval for the mine to reset");
 				p.sendMessage(" §3/VM enable [mine] Enables the mine");
 				p.sendMessage(" §3/VM disable [mine Disables the mine");
@@ -95,6 +95,7 @@ public class VMCommands implements CommandExecutor {
 				return true;
 			}
 
+/*
 			if(args[0].equalsIgnoreCase("addblock")){
 				if(args.length == 3){
 					String name = args[1].toLowerCase();
@@ -153,6 +154,7 @@ public class VMCommands implements CommandExecutor {
 				sender.sendMessage("§7Use: /vm removeblock [mine]");
 				return false;
 			}
+*/
 
 			if(args[0].equalsIgnoreCase("setresetinterval")){
 				if(args.length == 3){

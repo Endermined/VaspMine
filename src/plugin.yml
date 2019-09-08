@@ -1,8 +1,8 @@
 name: VaspMine
 main: me.krash0.vm.VM
 version: 1.2
-author: [Krash0, josemald1599]
+author: josemald1599_and_Krash0
 commands:
   vm:
-    description: 'Commands for vaspmine'
+    description: 'VaspMine Commands'
     aliases: [mine, mina]
