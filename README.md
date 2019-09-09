@@ -1,2 +1,4 @@
 # VaspMine
-An updated version of the mine reset plugin
+An updated/maintained version of the mine reset plugin, VaspMine
+
+This is forked from https://github.com/Krash0/VaspMine
