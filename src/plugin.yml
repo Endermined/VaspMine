@@ -1,6 +1,7 @@
 name: VaspMine
 main: me.krash0.vm.VM
 version: 1.2
+api-version: 1.13
 author: [Krash0, josemald1599]
 commands:
   vm:
